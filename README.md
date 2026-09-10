@@ -15,13 +15,9 @@
 
 ## 效果
 
-| 镂空透光（甲片 / 花窗 / 刀身血槽都真的透光） | 层叠：远的影子更大更虚 |
+| 镂空透光（甲片 / 花窗 / 刀身血槽都真的透光） | 起 · 上灯入场 |
 |---|---|
-| ![镂空](docs/images/detail-cutout.jpg) | ![层次](docs/images/act3.jpg) |
-
-| 起 · 上灯 | 转 · 拔刀 |
-|---|---|
-| ![起](docs/images/act1.jpg) | ![转](docs/images/act3.jpg) |
+| ![镂空](docs/images/detail-cutout.jpg) | ![起](docs/images/act1.jpg) |
 
 > 以上是**同一个引擎**渲染的完整作品《影窗·夜巡》。本仓库的 `example/` 是同一套 API 写的
 > **最小示例**（从零拼一个会动的小人），可读性优先，造型刻意做得简单。
