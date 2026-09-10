@@ -1,0 +1,9 @@
+# 生成物（都能用脚本重新生成）
+index.bundle.js
+yingchuang-shadow-play.html
+shots/
+.vscode/
+.idea/
+Thumbs.db
+*.log
+.DS_Store

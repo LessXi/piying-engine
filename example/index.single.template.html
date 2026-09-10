@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>皮影戏引擎 · piying-engine 示例</title>
+<style>
+  html,body{margin:0;height:100%;background:#050301;color:#e8d6b4;
+    font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;overflow:hidden}
+  #wrap{position:relative;line-height:0;box-shadow:0 0 70px 10px rgba(255,150,50,.09),0 24px 60px -12px #000}
+  canvas{display:block;border-radius:4px;background:#000}
+  #bar{display:flex;align-items:center;gap:12px;font-size:12px;color:#b99a6d;width:min(92vw,900px)}
+  #bar button{font:inherit;cursor:pointer;color:#ffd9a0;background:rgba(255,170,80,.08);
+    border:1px solid rgba(255,180,90,.28);border-radius:999px;padding:4px 14px}
+  #bar button:hover{background:rgba(255,170,80,.2)}
+  #scrub{flex:1}
+  code{color:#ffd9a0;background:rgba(255,170,80,.1);padding:1px 5px;border-radius:3px}
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="c" width="960" height="540"></canvas></div>
+<div id="bar">
+  <button id="play">▶ 播放</button>
+  <input id="scrub" type="range" min="0" max="1000" value="0">
+  <span id="clock">0.0s</span>
+</div>
+
+<!--BUNDLE-->
+</body>
+</html>
